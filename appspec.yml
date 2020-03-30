@@ -20,7 +20,7 @@ hooks:
     - location: scripts/gunicorn.sh
       timeout: 600
       runas: ubuntu
-    - location: scripts/ngnix.sh
+    - location: scripts/nginx.sh
       timeout: 600
       runas: ubuntu
   ApplicationStart:
