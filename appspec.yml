@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/Chatapplication/
+    destination: /home/ubuntu/Chatapp_project/
 permissions:
-  - object: /home/ubuntu/Chatapplication
+  - object: /home/ubuntu/Chatapp_project/
     pattern: "**"
     owner: ubuntu
     group: ubuntu
