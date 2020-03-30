@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get install python3-pip python3-dev nginx git -y
 sudo apt-get update
-sudo pip3 install virtualenv
+pip3 install virtualenv
 virtualenv --python=python3 /home/ubuntu/Chatapp_project/venv
 source /home/ubuntu/Chatapp_project/venv/bin/activate
 cd /home/ubuntu/Chatapp_project/Chatapplication/chatapp
