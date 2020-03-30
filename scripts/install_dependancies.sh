@@ -10,5 +10,5 @@ pip3 install -r requirements.txt
 pip3 install django bcrypt django-extensions
 sudo chown ubuntu:ubuntu /home/ubuntu/Chatapp_project/Chatapplication/chatapp
 cd /home/ubuntu/Chatapp_project/Chatapplication/chatapp/
-python3 manage.py collectstatic
+python3 manage.py collectstatic --noinput
 
