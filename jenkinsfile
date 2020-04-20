@@ -3,7 +3,7 @@ pipeline{
     stage('Deploy') {
              sh ''' #! /bin/bash
 
-             aws deploy create-deployment --application-name shubhamtf --deployment-group-name chatapp-dg-tf --deployment-config-name CodeDeployDefault.AllAtOnce --github-location repository=https://github.com/1996Shubh/Chatapp_project,commitId=0acd81264e84edffa06e344d970b7aa8824028c9
+             aws deploy create-deployment --application-name shubhamtf --deployment-group-name chatapp-dg-tf --deployment-config-name CodeDeployDefault.AllAtOnce --github-location repository=https://github.com/1996Shubh/Chatapp_project,commitId=e52ed132924cd26631640cf04daca686fefdbea2
 
              '''
     }
