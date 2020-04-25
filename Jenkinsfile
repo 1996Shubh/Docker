@@ -28,19 +28,7 @@ pipeline {
           '''
           }  
       }
-
-   /*   stage('Approval'){
-           options {
-             timeout(time: 60, unit: 'SECONDS') 
-            }
-           input {
-             message "Should we continue?"
-            }   
-           steps {
-            echo "Continuing with deployment"
-            }  
-        }
-     */ 
+         
         stage('Deploy') { 
            steps {
              sh ''' #! /bin/bash 
