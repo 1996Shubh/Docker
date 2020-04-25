@@ -29,7 +29,7 @@ pipeline {
           }  
       }
          
-        stage('Deploy') { 
+     stage('Deploy') { 
            steps {
              sh ''' #! /bin/bash 
              
@@ -38,7 +38,7 @@ pipeline {
             }
         }
         
-        stage('status'){
+     stage('status'){
             steps {
             sh ''' #! /bin/bash
             echo Deployment started
