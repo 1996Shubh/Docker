@@ -42,4 +42,4 @@ stages:
         azureSubscription: 'Azure subscription 1(5954249d-e56e-4b20-a091-92b9d7f1f822)'
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
-        inlineScript: 'az webapp restart --name paras --resource-group paras'
+        inlineScript: 'az webapp restart --name shubham --resource-group shubhamRG'
